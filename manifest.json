@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Manjaro Archivist",
+    "version": "0.1.0",
+    "icons": {
+        "16": "ma-icon-16x16.png",
+        "32": "ma-icon-32x32.png",
+        "48": "ma-icon-48x48.png",
+        "128": "ma-icon-128x128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://forum.manjaro.org/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

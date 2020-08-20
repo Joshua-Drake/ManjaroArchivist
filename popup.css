@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 250px;
+    height: 140px;
+    background-color: #565a59;
+    color: whitesmoke;
+    border: rgb(12, 138, 110) solid 5px;
+    padding: 15px;
+}
+.toggle, .report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toggle {
+    margin-bottom: 20px;
+}
+.report {
+    margin-top: 15px;
+}
+.report p {
+    margin-bottom: 5px;
+}
+a {
+    color: whitesmoke;
+}
+a:hover {
+    color: #1B9F85
+}
