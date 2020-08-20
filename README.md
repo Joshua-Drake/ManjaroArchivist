@@ -9,6 +9,7 @@ This extension checks whether a page is found or not before it executes, so this
 
 If you are irked by the idea of installing a browser extension created by someone with only one GitHub project, you can achieve the same result described above by downloading TamperMonkey and creating a script with the following code:
 
+```
 // ==UserScript==
 // @name         Archived Manjaro forum redirect
 // @namespace    http://tampermonkey.net/
@@ -27,3 +28,4 @@ If you are irked by the idea of installing a browser extension created by someon
         window.location.replace(forumAddress[0] + 'archived.forum' + forumAddress[1]);
     };
 })();
+```
